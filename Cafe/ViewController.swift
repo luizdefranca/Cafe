@@ -10,12 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
+    //MARK: - OutLets
     @IBOutlet weak var listTableView: UITableView!
 
+    //MARK: - Properties
+    //MARK: Variables
     var restaurantNames = ["Cafe Deadend", "Mallo Coffee & Bar", "De Mello Palheta Coffee Roasters", "Strange Love Coffee", "Quantum Coffee", "Hopper coffee", "Milkys Coffee", "Moonbean Coffee Company", "Balzacs Liberty Village", "Baddies", "The Absinthe Pub and Coffee Shop"]
-
+    //MARK: Constants
      let cellIdentifier = "cell"
+
+    //MARK: - LifeCycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         listTableView.dataSource = self
@@ -23,23 +27,30 @@ class ViewController: UIViewController {
     }
 
 
+    //MARK: - Actions
 }
+//MARK: - Extensions
 
+//MARK: TableViewDataSource
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return restaurantNames.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
-        cell.textLabel?.text = self.restaurantNames[indexPath.row]
-        cell.imageView?.image = UIImage(named: "\(self.restaurantNames[indexPath.row])")
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! CafeTableViewCell
+        cell.nameLabel.text = self.restaurantNames[indexPath.row]
+        cell.thumbnailImageView.image = UIImage(named: "\(self.restaurantNames[indexPath.row])")
+        let backgroundView = UIView()
+        backgroundView.backgroundColor = UIColor(named: "Destak_Background")
+        cell.selectedBackgroundView = backgroundView
         return cell
     }
 
 
 }
 
+//MARK: TableViewDelegate
 extension ViewController: UITableViewDelegate {
 
 }
