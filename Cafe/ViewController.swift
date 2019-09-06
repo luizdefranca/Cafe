@@ -52,5 +52,11 @@ extension ViewController: UITableViewDataSource {
 
 //MARK: TableViewDelegate
 extension ViewController: UITableViewDelegate {
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let optionMenu = UIAlertController(title: nil, message: "lets try", preferredStyle: .actionSheet)
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        optionMenu.addAction(cancelAction)
+        optionMenu.view.tintColor = UIColor(named: "Dark_Font")
+        present(optionMenu, animated: true, completion: nil)
+    }
 }
