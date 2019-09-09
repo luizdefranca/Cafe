@@ -43,6 +43,7 @@ extension ViewController: UITableViewDataSource {
         cell.thumbnailImageView.image = UIImage(named: "\(self.restaurantNames[indexPath.row])")
         let backgroundView = UIView()
         backgroundView.backgroundColor = UIColor(named: "Destak_Background")
+
         cell.selectedBackgroundView = backgroundView
         return cell
     }
@@ -58,5 +59,39 @@ extension ViewController: UITableViewDelegate {
         optionMenu.addAction(cancelAction)
         optionMenu.view.tintColor = UIColor(named: "Dark_Font")
         present(optionMenu, animated: true, completion: nil)
+    }
+
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        switch editingStyle {
+        case .delete:
+            restaurantNames.remove(at: indexPath.row)
+            tableView.reloadData()
+        default:
+            //TODO: implement
+            print("Todo")
+        }
+    }
+
+    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        //Sharing Button
+        let shareAction = UITableViewRowAction(style: .default, title: "Share") { (action, indexPath) -> Void in
+            let defaultText = "Checking in at " + self.restaurantNames[indexPath.row]
+            let activityController = UIActivityViewController(activityItems: [defaultText], applicationActivities: nil)
+            self.present(activityController, animated: true, completion: {
+
+            })
+
+        }
+
+        shareAction.backgroundColor = UIColor(displayP3Red: 48.0/255.0, green: 173.0/255.0, blue: 99.0/255.0, alpha: 1.0)
+
+
+        //Delete button
+        let deleteAction = UITableViewRowAction(style: .destructive, title: "Delete") { (action, indexPath) -> Void in
+            self.restaurantNames.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+        deleteAction.backgroundColor = UIColor(displayP3Red: 202.0/255.0, green: 202.0/255.0, blue: 203.0/255.0, alpha: 1.0)
+        return [deleteAction, shareAction]
     }
 }
