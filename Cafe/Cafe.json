@@ -1,0 +1,841 @@
+{
+    "businesses": [
+        {
+            "id": "c6f8wBjPLDzyubEBqgcMnw",
+            "alias": "fahrenheit-coffee-toronto",
+            "name": "Fahrenheit Coffee",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/lwMl4fcbqttaq1_ycBM4WA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fahrenheit-coffee-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 309,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.65244524304,
+                "longitude": -79.372932326803
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "120 Lombard Avenue",
+                "address2": null,
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5A 4J6",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "120 Lombard Avenue",
+                    "Toronto, ON M5A 4J6",
+                    "Canada"
+                ]
+            },
+            "phone": "+16478961774",
+            "display_phone": "+1 647-896-1774",
+            "distance": 3096.454471500587
+        },
+        {
+            "id": "4Jscimulh38Rq2hOgjb2Hg",
+            "alias": "strange-love-toronto-2",
+            "name": "Strange Love",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/92rDVDQ1gMbduxTZFAkZ-w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/strange-love-toronto-2?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 159,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.6463302208773,
+                "longitude": -79.395091128185
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "101 Spadina Avenue",
+                "address2": "",
+                "address3": null,
+                "city": "Toronto",
+                "zip_code": "M5V 2K2",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "101 Spadina Avenue",
+                    "Toronto, ON M5V 2K2",
+                    "Canada"
+                ]
+            },
+            "phone": "+14167924844",
+            "display_phone": "+1 416-792-4844",
+            "distance": 3111.1995037015467
+        },
+        {
+            "id": "qy4WKXTBkqD4zX0rohYF8Q",
+            "alias": "forget-me-not-cafe-toronto-2",
+            "name": "Forget Me Not Cafe",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9m3kWO1GnN0UOs7i2nkX7w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/forget-me-not-cafe-toronto-2?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 97,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 43.64585,
+                "longitude": -79.40086
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "506 Adelaide Street W",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5V 1T5",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "506 Adelaide Street W",
+                    "Toronto, ON M5V 1T5",
+                    "Canada"
+                ]
+            },
+            "phone": "+14168480057",
+            "display_phone": "+1 416-848-0057",
+            "distance": 3184.310231589349
+        },
+        {
+            "id": "b9Ctxco-1HyjE55W_28MYA",
+            "alias": "himalayan-coffee-house-toronto-2",
+            "name": "Himalayan Coffee House",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/TeAy_LjBIVa0J9HuwCLMfA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/himalayan-coffee-house-toronto-2?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 126,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.71336,
+                "longitude": -79.4
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2552 Yonge Street",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M4P 2J2",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "2552 Yonge Street",
+                    "Toronto, ON M4P 2J2",
+                    "Canada"
+                ]
+            },
+            "phone": "+14164856464",
+            "display_phone": "+1 416-485-6464",
+            "distance": 4355.754392895396
+        },
+        {
+            "id": "g6AFW-zY0wDvBl9U82g4zg",
+            "alias": "baretto-caffe-toronto-4",
+            "name": "Baretto Caffe",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/76iqpdmqJjhqAyB8vzyIEw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/baretto-caffe-toronto-4?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 311,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 43.74471,
+                "longitude": -79.34643
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "1262 Don Mills Road",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M3B 2W7",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "1262 Don Mills Road",
+                    "Toronto, ON M3B 2W7",
+                    "Canada"
+                ]
+            },
+            "phone": "+14163850003",
+            "display_phone": "+1 416-385-0003",
+            "distance": 8814.471101676705
+        },
+        {
+            "id": "UXHlrjrt72KLojnXZsz7gw",
+            "alias": "höm-cafe-toronto-2",
+            "name": "Höm Cafe",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/g9k18WmbCj9Z9ZV0J6Z5VA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/h%C3%B6m-cafe-toronto-2?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 30,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 43.6703244641439,
+                "longitude": -79.3906142286939
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "95 Cumberland Street",
+                "address2": "",
+                "address3": null,
+                "city": "Toronto",
+                "zip_code": "M5R 3N7",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "95 Cumberland Street",
+                    "Toronto, ON M5R 3N7",
+                    "Canada"
+                ]
+            },
+            "phone": "+14169232882",
+            "display_phone": "+1 416-923-2882",
+            "distance": 665.4076797526656
+        },
+        {
+            "id": "aRvCyCpwxgIqjXSSZ8pt3g",
+            "alias": "mallo-toronto",
+            "name": "Mallo",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/GSo9vxJEBgCUfBQRlPBU-g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mallo-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 35,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.6646307,
+                "longitude": -79.4107376
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "785  Bathurst Street",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5R 3G3",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "785  Bathurst Street",
+                    "Toronto, ON M5R 3G3",
+                    "Canada"
+                ]
+            },
+            "phone": "+16475209219",
+            "display_phone": "+1 647-520-9219",
+            "distance": 1550.7284537195646
+        },
+        {
+            "id": "CMAD8-ZzDrGD-Lb9sNijaw",
+            "alias": "coffee-dak-lak-toronto",
+            "name": "Coffee Dak Lak",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/xP3nPf52v7UaejMrvo6zkQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/coffee-dak-lak-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 25,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.6577933146794,
+                "longitude": -79.400848124473
+            },
+            "transactions": [],
+            "location": {
+                "address1": "283 College St",
+                "address2": "",
+                "address3": null,
+                "city": "Toronto",
+                "zip_code": "M5T 1S2",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "283 College St",
+                    "Toronto, ON M5T 1S2",
+                    "Canada"
+                ]
+            },
+            "phone": "+16474470097",
+            "display_phone": "+1 647-447-0097",
+            "distance": 1861.8605577519822
+        },
+        {
+            "id": "KMi4Q-u18kAEAbSq2eywXg",
+            "alias": "bluestone-lane-toronto-5",
+            "name": "Bluestone Lane",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/FY8xMZ-1IUg4TvkPEOVwdw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bluestone-lane-toronto-5?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 43.65274,
+                "longitude": -79.37881
+            },
+            "transactions": [],
+            "location": {
+                "address1": "2 Queen St E",
+                "address2": "",
+                "address3": null,
+                "city": "Toronto",
+                "zip_code": "M5C 3G7",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "2 Queen St E",
+                    "Toronto, ON M5C 3G7",
+                    "Canada"
+                ]
+            },
+            "phone": "+17183746858",
+            "display_phone": "+1 718-374-6858",
+            "distance": 2792.6954831318744
+        },
+        {
+            "id": "hm0y7QxT-UUmQcF074qV0g",
+            "alias": "boxcar-social-toronto",
+            "name": "Boxcar Social",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/w9ucdy7q3QQf9upXgqYN8w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/boxcar-social-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 140,
+            "categories": [
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 43.6817331,
+                "longitude": -79.3914824
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "1208 Yonge Street",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M4T 1W1",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "1208 Yonge Street",
+                    "Toronto, ON M4T 1W1",
+                    "Canada"
+                ]
+            },
+            "phone": "+18447269227",
+            "display_phone": "+1 844-726-9227",
+            "distance": 933.1213856864197
+        },
+        {
+            "id": "9AEmY0f_QMmueXQoKsQfKw",
+            "alias": "piedmont-coffee-bar-toronto-2",
+            "name": "Piedmont Coffee Bar",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/hTYnVeODI5Xbw8lHxJB0tA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/piedmont-coffee-bar-toronto-2?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 56,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.6684349895074,
+                "longitude": -79.3828598409891
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "66 Isabella Street",
+                "address2": "Unit 4",
+                "address3": null,
+                "city": "Toronto",
+                "zip_code": "M4Y 1N3",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "66 Isabella Street",
+                    "Unit 4",
+                    "Toronto, ON M4Y 1N3",
+                    "Canada"
+                ]
+            },
+            "phone": "+14169018639",
+            "display_phone": "+1 416-901-8639",
+            "distance": 1297.452400855341
+        },
+        {
+            "id": "BY0o4pOtNPKyTklTFXDJpg",
+            "alias": "dineen-coffee-toronto",
+            "name": "Dineen Coffee",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/UVF95YiI6Bks_HN7Kf47kA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dineen-coffee-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 342,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 43.6511564283768,
+                "longitude": -79.3789627552706
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "140 Yonge St",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5C 2L7",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "140 Yonge St",
+                    "Toronto, ON M5C 2L7",
+                    "Canada"
+                ]
+            },
+            "phone": "+14169000949",
+            "display_phone": "+1 416-900-0949",
+            "distance": 2945.450429282247
+        },
+        {
+            "id": "WKcVegcUjAld1S737a_QHw",
+            "alias": "sorry-coffee-toronto",
+            "name": "Sorry Coffee",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/wwqYT5w-vgad4gGiGa8XVA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sorry-coffee-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 109,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 43.6696,
+                "longitude": -79.39166
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "102 Bloor Street W",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5S 1M8",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "102 Bloor Street W",
+                    "Toronto, ON M5S 1M8",
+                    "Canada"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 657.7153159919421
+        },
+        {
+            "id": "5tQSJ2sed3Ln-1S1rbIFoQ",
+            "alias": "moon-bean-coffee-company-toronto",
+            "name": "Moon Bean Coffee Company",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/r8mcr9X3hQu8TQYSvFI7tw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/moon-bean-coffee-company-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 227,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "coffeeroasteries",
+                    "title": "Coffee Roasteries"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 43.6542657,
+                "longitude": -79.4001776
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "30 St. Andrew Street",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5T 1K6",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "30 St. Andrew Street",
+                    "Toronto, ON M5T 1K6",
+                    "Canada"
+                ]
+            },
+            "phone": "+14165950327",
+            "display_phone": "+1 416-595-0327",
+            "distance": 2242.0310389631213
+        },
+        {
+            "id": "ocLnCE2E29j-CoBQj1yaSA",
+            "alias": "cafe-landwer-toronto",
+            "name": "Cafe Landwer",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/vEdj0KmEMPPUmVvqxZuqwA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cafe-landwer-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 204,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 43.64875,
+                "longitude": -79.38491
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "165 University Avenue",
+                "address2": "",
+                "address3": null,
+                "city": "Toronto",
+                "zip_code": "M5H 3B8",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "165 University Avenue",
+                    "Toronto, ON M5H 3B8",
+                    "Canada"
+                ]
+            },
+            "phone": "+16477481165",
+            "display_phone": "+1 647-748-1165",
+            "distance": 2990.4805472070702
+        },
+        {
+            "id": "lXuGai9GMagZ4T-lnZ1Z1g",
+            "alias": "cozy-coffee-toronto",
+            "name": "Cozy Coffee",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/AGF9F49XQ1g08bd0xTzjlA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cozy-coffee-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 12,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.65057,
+                "longitude": -79.38891
+            },
+            "transactions": [],
+            "location": {
+                "address1": "200 Queen Street West",
+                "address2": null,
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5V 1Z2",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "200 Queen Street West",
+                    "Toronto, ON M5V 1Z2",
+                    "Canada"
+                ]
+            },
+            "phone": "+16473510800",
+            "display_phone": "+1 647-351-0800",
+            "distance": 2710.7509808464974
+        },
+        {
+            "id": "nJBwEYaulNXHPAUP0OBRtg",
+            "alias": "fika-toronto-2",
+            "name": "FIKA",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/BS1gd0DR6jbskaIChe0ruQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fika-toronto-2?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 178,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 43.6535844,
+                "longitude": -79.4004303
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "28 Kensington Avenue",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5T 2J9",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "28 Kensington Avenue",
+                    "Toronto, ON M5T 2J9",
+                    "Canada"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 2319.711495141272
+        },
+        {
+            "id": "5B8dlAoL59SjTft330E9cw",
+            "alias": "mos-mos-toronto",
+            "name": "Mos Mos",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/BGhAnKHgZG1jKAxNRGiKSw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mos-mos-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 99,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 43.6485666628248,
+                "longitude": -79.3782193637533
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "25 King Street W",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5S",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "25 King Street W",
+                    "Toronto, ON M5S",
+                    "Canada"
+                ]
+            },
+            "phone": "+14168699266",
+            "display_phone": "+1 416-869-9266",
+            "distance": 3227.236960032256
+        },
+        {
+            "id": "NEYMAeK1BeR2E_vELnEIDA",
+            "alias": "quantum-coffee-toronto",
+            "name": "Quantum Coffee",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Qovf3P8Ah3CfTcwiz8xwNg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/quantum-coffee-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 174,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 43.64562,
+                "longitude": -79.39541
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "460 King Street W",
+                "address2": null,
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5V 1L7",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "460 King Street W",
+                    "Toronto, ON M5V 1L7",
+                    "Canada"
+                ]
+            },
+            "phone": "+16474944429",
+            "display_phone": "+1 647-494-4429",
+            "distance": 3196.471532741569
+        },
+        {
+            "id": "V3hRG0JLX5kVkmKpTykBVQ",
+            "alias": "black-canary-espresso-bar-toronto",
+            "name": "Black Canary Espresso Bar",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/BJBO8Ekx8P1oLogoh11wdg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/black-canary-espresso-bar-toronto?adjust_creative=gOB5CoysunImOXF3TrPFEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gOB5CoysunImOXF3TrPFEA",
+            "review_count": 86,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.6570899,
+                "longitude": -79.38082
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "329 Yonge Street",
+                "address2": "",
+                "address3": "",
+                "city": "Toronto",
+                "zip_code": "M5B",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "329 Yonge Street",
+                    "Toronto, ON M5B",
+                    "Canada"
+                ]
+            },
+            "phone": "+14163017633",
+            "display_phone": "+1 416-301-7633",
+            "distance": 2327.9449104997743
+        }
+    ],
+    "total": 1600,
+    "region": {
+        "center": {
+            "longitude": -79.39682006835938,
+            "latitude": 43.67428196976998
+        }
+    }
+}

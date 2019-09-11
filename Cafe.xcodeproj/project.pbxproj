@@ -14,6 +14,11 @@
 		25C1BB5D2320154E005D1FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C1BB5C2320154E005D1FCB /* Assets.xcassets */; };
 		25C1BB602320154E005D1FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C1BB5E2320154E005D1FCB /* LaunchScreen.storyboard */; };
 		25C1BB682322B0CA005D1FCB /* CafeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1BB672322B0CA005D1FCB /* CafeTableViewCell.swift */; };
+		25C1BB6A2327DE8F005D1FCB /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1BB692327DE8F005D1FCB /* Cafe.swift */; };
+		25C1BB6C23287D3D005D1FCB /* Cafe.json in Resources */ = {isa = PBXBuildFile; fileRef = 25C1BB6B23287D3D005D1FCB /* Cafe.json */; };
+		25C1BB6E23287DCE005D1FCB /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1BB6D23287DCE005D1FCB /* DataManager.swift */; };
+		25C1BB7023287DDA005D1FCB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1BB6F23287DDA005D1FCB /* Extensions.swift */; };
+		32DC750BD05C7479EAAB9318 /* CafeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DC729B00E8119BF9247DC7 /* CafeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		25C1BB5F2320154E005D1FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25C1BB612320154E005D1FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25C1BB672322B0CA005D1FCB /* CafeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeTableViewCell.swift; sourceTree = "<group>"; };
+		25C1BB692327DE8F005D1FCB /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		25C1BB6B23287D3D005D1FCB /* Cafe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Cafe.json; sourceTree = "<group>"; };
+		25C1BB6D23287DCE005D1FCB /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		25C1BB6F23287DDA005D1FCB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		32DC729B00E8119BF9247DC7 /* CafeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +71,16 @@
 				25C1BB522320154A005D1FCB /* AppDelegate.swift */,
 				25C1BB542320154A005D1FCB /* ViewController.swift */,
 				25C1BB672322B0CA005D1FCB /* CafeTableViewCell.swift */,
+				25C1BB692327DE8F005D1FCB /* Cafe.swift */,
 				25C1BB562320154A005D1FCB /* Main.storyboard */,
 				25C1BB5C2320154E005D1FCB /* Assets.xcassets */,
 				25C1BB5E2320154E005D1FCB /* LaunchScreen.storyboard */,
 				25C1BB612320154E005D1FCB /* Info.plist */,
+				25C1BB6B23287D3D005D1FCB /* Cafe.json */,
+				25C1BB6D23287DCE005D1FCB /* DataManager.swift */,
 				25C1BB592320154A005D1FCB /* Cafe.xcdatamodeld */,
+				25C1BB6F23287DDA005D1FCB /* Extensions.swift */,
+				32DC729B00E8119BF9247DC7 /* CafeManager.swift */,
 			);
 			path = Cafe;
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C1BB6C23287D3D005D1FCB /* Cafe.json in Resources */,
 				25C1BB602320154E005D1FCB /* LaunchScreen.storyboard in Resources */,
 				25C1BB5D2320154E005D1FCB /* Assets.xcassets in Resources */,
 				25C1BB582320154A005D1FCB /* Main.storyboard in Resources */,
@@ -144,7 +160,11 @@
 				25C1BB682322B0CA005D1FCB /* CafeTableViewCell.swift in Sources */,
 				25C1BB552320154A005D1FCB /* ViewController.swift in Sources */,
 				25C1BB5B2320154A005D1FCB /* Cafe.xcdatamodeld in Sources */,
+				25C1BB6A2327DE8F005D1FCB /* Cafe.swift in Sources */,
+				25C1BB6E23287DCE005D1FCB /* DataManager.swift in Sources */,
 				25C1BB532320154A005D1FCB /* AppDelegate.swift in Sources */,
+				25C1BB7023287DDA005D1FCB /* Extensions.swift in Sources */,
+				32DC750BD05C7479EAAB9318 /* CafeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
