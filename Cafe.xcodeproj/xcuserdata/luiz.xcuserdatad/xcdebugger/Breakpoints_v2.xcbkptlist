@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cafe/CafeManager.swift"
-            timestampString = "589861121.313362"
+            timestampString = "589864947.664932"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -26,13 +26,201 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cafe/CafeManager.swift"
-            timestampString = "589861161.020656"
+            timestampString = "589864947.665"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "10"
             endingLineNumber = "10"
             landmarkName = "CafeManager"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe/CafeTableViewCell.swift"
+            timestampString = "592939170.257931"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "cafe"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe/CafeTableViewCell.swift"
+            timestampString = "592939170.258333"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "loadImage(urlString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe/CafeTableViewCell.swift"
+            timestampString = "592939170.258605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "CafeTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe.CafeTableViewCell.imageCache.getter : __C.NSCache&lt;Swift.AnyObject, Swift.AnyObject&gt;"
+                  moduleName = "Cafe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luiz/Documents/SwiftWorkspace/Cafe/Cafe/CafeTableViewCell.swift"
+                  timestampString = "592935238.493258"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe.CafeTableViewCell.imageCache.setter : __C.NSCache&lt;Swift.AnyObject, Swift.AnyObject&gt;"
+                  moduleName = "Cafe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luiz/Documents/SwiftWorkspace/Cafe/Cafe/CafeTableViewCell.swift"
+                  timestampString = "592935238.4947391"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe.CafeTableViewCell.imageCache.modify : __C.NSCache&lt;Swift.AnyObject, Swift.AnyObject&gt;"
+                  moduleName = "Cafe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luiz/Documents/SwiftWorkspace/Cafe/Cafe/CafeTableViewCell.swift"
+                  timestampString = "592935238.496303"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe.CafeTableViewCell.imageCache.modify : __C.NSCache&lt;Swift.AnyObject, Swift.AnyObject&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Cafe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luiz/Documents/SwiftWorkspace/Cafe/Cafe/CafeTableViewCell.swift"
+                  timestampString = "592935238.497807"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe.CafeTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Cafe.CafeTableViewCell"
+                  moduleName = "Cafe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luiz/Documents/SwiftWorkspace/Cafe/Cafe/CafeTableViewCell.swift"
+                  timestampString = "592935238.499276"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "714">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe.CafeTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Cafe.CafeTableViewCell&gt;"
+                  moduleName = "Cafe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luiz/Documents/SwiftWorkspace/Cafe/Cafe/CafeTableViewCell.swift"
+                  timestampString = "592935238.500693"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe/CafeTableViewCell.swift"
+            timestampString = "592939170.258863"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "cafe"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe/CafeTableViewCell.swift"
+            timestampString = "592939170.259111"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "loadImage(urlString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe/CafeTableViewCell.swift"
+            timestampString = "592939170.259351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "loadImage(urlString:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

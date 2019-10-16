@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251B68AE234ADA9400928AE1 /* RoundedAndShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B68AD234ADA9400928AE1 /* RoundedAndShadowView.swift */; };
+		258808192329C12E00F0A0CC /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258808182329C12E00F0A0CC /* DetailTableViewController.swift */; };
+		2588081B2329C25F00F0A0CC /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588081A2329C25F00F0A0CC /* Segue.swift */; };
 		25C1BB532320154A005D1FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1BB522320154A005D1FCB /* AppDelegate.swift */; };
 		25C1BB552320154A005D1FCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1BB542320154A005D1FCB /* ViewController.swift */; };
 		25C1BB582320154A005D1FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C1BB562320154A005D1FCB /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		251B68AD234ADA9400928AE1 /* RoundedAndShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedAndShadowView.swift; sourceTree = "<group>"; };
+		258808182329C12E00F0A0CC /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		2588081A2329C25F00F0A0CC /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
 		25C1BB4F2320154A005D1FCB /* Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C1BB522320154A005D1FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25C1BB542320154A005D1FCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,12 +77,15 @@
 				25C1BB522320154A005D1FCB /* AppDelegate.swift */,
 				25C1BB542320154A005D1FCB /* ViewController.swift */,
 				25C1BB672322B0CA005D1FCB /* CafeTableViewCell.swift */,
+				251B68AD234ADA9400928AE1 /* RoundedAndShadowView.swift */,
 				25C1BB692327DE8F005D1FCB /* Cafe.swift */,
+				258808182329C12E00F0A0CC /* DetailTableViewController.swift */,
 				25C1BB562320154A005D1FCB /* Main.storyboard */,
 				25C1BB5C2320154E005D1FCB /* Assets.xcassets */,
 				25C1BB5E2320154E005D1FCB /* LaunchScreen.storyboard */,
 				25C1BB612320154E005D1FCB /* Info.plist */,
 				25C1BB6B23287D3D005D1FCB /* Cafe.json */,
+				2588081A2329C25F00F0A0CC /* Segue.swift */,
 				25C1BB6D23287DCE005D1FCB /* DataManager.swift */,
 				25C1BB592320154A005D1FCB /* Cafe.xcdatamodeld */,
 				25C1BB6F23287DDA005D1FCB /* Extensions.swift */,
@@ -157,13 +166,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2588081B2329C25F00F0A0CC /* Segue.swift in Sources */,
 				25C1BB682322B0CA005D1FCB /* CafeTableViewCell.swift in Sources */,
 				25C1BB552320154A005D1FCB /* ViewController.swift in Sources */,
 				25C1BB5B2320154A005D1FCB /* Cafe.xcdatamodeld in Sources */,
+				258808192329C12E00F0A0CC /* DetailTableViewController.swift in Sources */,
 				25C1BB6A2327DE8F005D1FCB /* Cafe.swift in Sources */,
 				25C1BB6E23287DCE005D1FCB /* DataManager.swift in Sources */,
 				25C1BB532320154A005D1FCB /* AppDelegate.swift in Sources */,
 				25C1BB7023287DDA005D1FCB /* Extensions.swift in Sources */,
+				251B68AE234ADA9400928AE1 /* RoundedAndShadowView.swift in Sources */,
 				32DC750BD05C7479EAAB9318 /* CafeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

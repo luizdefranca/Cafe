@@ -6,8 +6,7 @@
 //  Copyright © 2019 Luiz. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 typealias JsonObject = [String: Any]
-
 
