@@ -26,22 +26,48 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         listTableView.dataSource = self
         listTableView.delegate = self
-
-        navigationItem.title = "Easy Food"
-        navigationController?.navigationBar.tintColor = UIColor(named: "Clear_Light_Font")
-        navigationController?.navigationBar.prefersLargeTitles = true
-        navigationItem.titleView?.tintColor = UIColor(named: "Clear_Light_Font")
-        self.navigationController?.navigationBar.backgroundColor = UIColor(named: "Dark_Font")
         fetchData()
+        configNavigationController()
+
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.hidesBarsOnSwipe = true
+        navigationController?.toolbar.isHidden = true
     }
 
+    private func configNavigationController () {
+        navigationItem.title = "Easy Food"
+        navigationController?.navigationBar.tintColor = UIColor(named: "Clear_Light_Font")
+        //        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.titleView?.tintColor = UIColor(named: "Clear_Light_Font")
+        self.navigationController?.navigationBar.backgroundColor = UIColor(named: "Dark_Font")
 
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+
+        navigationController?.toolbar.isHidden = true
+
+    }
+
+    private func configTableView() {
+        listTableView.estimatedRowHeight = 80
+        listTableView.rowHeight = UITableView.automaticDimension
+    }
+
+    private func animations() {
+        let anin = UIViewPropertyAnimator()
+        
+        anin.addAnimations {
+
+        }
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier {
         case Segue.showDetail.rawValue:
             if let indexPath = listTableView.indexPathForSelectedRow {
                 if let destination = segue.destination as? DetailTableViewController {
-//                    destination.cafe = restaurantNames[indexPath.row]
+                    destination.cafe = cafes[indexPath.row]
+                    let cell = listTableView.cellForRow(at: indexPath) as! CafeTableViewCell
+                    destination.image = cell.thumbnailImage.image
                 }
             }
         default:
@@ -90,7 +116,7 @@ extension ViewController: UITableViewDelegate {
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         optionMenu.addAction(cancelAction)
         optionMenu.view.tintColor = UIColor(named: "Dark_Font")
-        present(optionMenu, animated: true, completion: nil)
+//        present(optionMenu, animated: true, completion: nil)
     }
 
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {

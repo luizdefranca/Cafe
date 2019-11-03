@@ -18,7 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
-        
+        if let barFont = UIFont(name: "AvenirNextCondensed-DemiBold", size: 24) {
+            UINavigationBar.appearance().titleTextAttributes = [
+                NSAttributedString.Key.font: barFont
+            ]
+        }
         return true
     }
 

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "07FDEE6D-499A-4BF9-86DA-3F57E12B0FAB"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "1D5181C0-524F-4A80-AD62-95C646072816"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -22,6 +24,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "869FC4BE-2CE0-4C20-BC64-50964080E995"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -38,15 +41,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "C04050D9-B6F2-4AC1-8DD7-CFA5DE6A444B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cafe/CafeTableViewCell.swift"
-            timestampString = "592939170.257931"
+            timestampString = "593720390.105975"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "cafe"
             landmarkType = "24">
          </BreakpointContent>
@@ -54,15 +58,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "21D28964-F59C-45D6-8A05-FD268F207A6B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cafe/CafeTableViewCell.swift"
-            timestampString = "592939170.258333"
+            timestampString = "593720390.106243"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "loadImage(urlString:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -70,19 +75,21 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "68A99090-8EF2-4C4F-BF1E-8E09EFB0AC1E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cafe/CafeTableViewCell.swift"
-            timestampString = "592939170.258605"
+            timestampString = "593720390.106305"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "CafeTableViewCell"
             landmarkType = "3">
             <Locations>
                <Location
+                  uuid = "68A99090-8EF2-4C4F-BF1E-8E09EFB0AC1E - 1c549e0d05781763"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -98,6 +105,7 @@
                   offsetFromSymbolStart = "114">
                </Location>
                <Location
+                  uuid = "68A99090-8EF2-4C4F-BF1E-8E09EFB0AC1E - 9cb1f2b7a0979397"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -113,6 +121,7 @@
                   offsetFromSymbolStart = "128">
                </Location>
                <Location
+                  uuid = "68A99090-8EF2-4C4F-BF1E-8E09EFB0AC1E - 1488da3f990d8864"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -128,6 +137,7 @@
                   offsetFromSymbolStart = "18">
                </Location>
                <Location
+                  uuid = "68A99090-8EF2-4C4F-BF1E-8E09EFB0AC1E - b9d433f9db195aaa"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -143,6 +153,7 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
+                  uuid = "68A99090-8EF2-4C4F-BF1E-8E09EFB0AC1E - c6397fcb76e0c46c"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -158,6 +169,7 @@
                   offsetFromSymbolStart = "714">
                </Location>
                <Location
+                  uuid = "68A99090-8EF2-4C4F-BF1E-8E09EFB0AC1E - 689ec88a3f5e846a"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -178,15 +190,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "195E7467-39DE-43B8-9CAF-8A2793D5E854"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cafe/CafeTableViewCell.swift"
-            timestampString = "592939170.258863"
+            timestampString = "593720390.106367"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "cafe"
             landmarkType = "24">
          </BreakpointContent>
@@ -194,15 +207,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "4C6ACED3-50BE-40E3-B087-21CFDFC4811C"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cafe/CafeTableViewCell.swift"
-            timestampString = "592939170.259111"
+            timestampString = "593720390.106416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "loadImage(urlString:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -210,17 +224,86 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "C3E81BE9-C6FD-4379-BA28-A2AD89B4803F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cafe/CafeTableViewCell.swift"
-            timestampString = "592939170.259351"
+            timestampString = "593720390.106464"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "loadImage(urlString:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DAC868F-2575-4C9E-BFD1-22BAE64159A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe/DetailTableViewController.swift"
+            timestampString = "593720390.106513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "DetailTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BE92A2B-E25F-491D-8A03-B5AA637752F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe/DetailTableViewController.swift"
+            timestampString = "593720390.106729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20B50586-1336-43C3-9313-C715AC358639"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe/DetailTableViewController.swift"
+            timestampString = "593720390.106797"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "checkButton"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F43875AA-323E-4E28-A569-0C15B27940E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe/DetailTableViewController.swift"
+            timestampString = "593720390.106853"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "checkButton"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

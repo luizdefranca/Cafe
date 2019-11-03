@@ -34,10 +34,16 @@ class CafeTableViewCell: UITableViewCell {
     var cafe: Cafe? {
         didSet {
             self.nameLabel.text = self.cafe?.name
-            self.locationLabel.text = self.cafe?.address
+
+            if let address = self.cafe?.address, let postalCode = self.cafe?.postalCode, let city = self.cafe?.city {
+                let fullAddress = "\(address), \(postalCode) - \(city)"
+                self.locationLabel.text = fullAddress
+//                    self.cafe?.address
+            }
+
 
             if let imageString = self.cafe?.image {
-             let imaged =   loadImage(urlString: imageString)
+                loadImage(urlString: imageString)
             }
 
         }
@@ -46,15 +52,15 @@ class CafeTableViewCell: UITableViewCell {
     var imageCache = NSCache<AnyObject, AnyObject>()
 
 
-    func loadImage(urlString: String) -> UIImage? {
+    func loadImage(urlString: String) {
         if let imageCache = imageCache.object(forKey: urlString as AnyObject) as? UIImage {
             self.thumbnailImage.image = imageCache
-            return nil
+            return
         }
 
-        guard let url = URL(string: urlString) else { return  nil}
+        guard let url = URL(string: urlString) else { return }
         let request = URLRequest(url: url)
-        var imagei : UIImage?
+
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {
                 print("Error: \(error.localizedDescription) at line \(#line) in the function \(#function) on the file \(#file) ")
@@ -67,11 +73,10 @@ class CafeTableViewCell: UITableViewCell {
                 DispatchQueue.main.async {
                     self.thumbnailImage.image = image
                 }
-              imagei = image
             }
 
         }.resume()
-        return imagei
+
     }
 
     func showActivityIndicator(view: UIView){
