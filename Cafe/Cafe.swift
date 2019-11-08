@@ -54,7 +54,18 @@ import Foundation
 
  */
 
-class Cafe {
+import MapKit
+
+class Cafe : NSObject, MKAnnotation {
+
+
+
+    //Required MkAnnotation Attributes
+
+    var coordinate: CLLocationCoordinate2D  {
+        return CLLocationCoordinate2D(latitude: self.latitude, longitude: self.longitude)
+    }
+
     var id: String = ""
     var name: String = ""
     var postalCode: String = ""
@@ -67,10 +78,11 @@ class Cafe {
     var webPage: String = ""
     var rating: Double = 0
     var price: String = ""
-    var title: String = ""
+    var title: String? = ""
     var distance: Double = 0.0
     var isClosed: Bool = false
     var transactions: [String] = [String]()
+
 
     init(id : String,
             name: String,

@@ -164,7 +164,8 @@ class DetailTableViewController: UITableViewController {
     }
 
    @objc private func showMapView() {
-        print("show maps")
+
+    print("show maps")
     }
     /*
     // Override to support conditional editing of the table view.

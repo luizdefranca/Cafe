@@ -105,6 +105,32 @@
             </objects>
             <point key="canvasLocation" x="409" y="423"/>
         </scene>
+        <!--MapViewController-->
+        <scene sceneID="XjU-yT-OLa">
+            <objects>
+                <viewController id="6Rb-UF-PoE" userLabel="MapViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tlA-bB-D80">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5Pz-5o-sgB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5Pz-5o-sgB" firstAttribute="top" secondItem="tlA-bB-D80" secondAttribute="top" id="0hZ-oG-CWj"/>
+                            <constraint firstAttribute="bottom" secondItem="5Pz-5o-sgB" secondAttribute="bottom" id="8yX-zl-MpJ"/>
+                            <constraint firstItem="5Pz-5o-sgB" firstAttribute="leading" secondItem="tlA-bB-D80" secondAttribute="leading" id="I4L-vE-vUl"/>
+                            <constraint firstItem="5Pz-5o-sgB" firstAttribute="trailing" secondItem="tlA-bB-D80" secondAttribute="trailing" id="Orj-fs-6aw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vKm-DT-VHu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fVh-xf-E2D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1617.3913043478262" y="800.89285714285711"/>
+        </scene>
         <!--Detail Table View Controller-->
         <scene sceneID="J9f-tD-bjb">
             <objects>
