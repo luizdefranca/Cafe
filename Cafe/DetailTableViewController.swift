@@ -12,7 +12,7 @@ import MapKit
 
 class DetailTableViewController: UITableViewController {
 
-    //MARK: -Outlets
+    //MARK: - Outlets
 
     @IBOutlet weak var detailImageView: UIImageView!
     var checkButton : UIButton  {
@@ -30,13 +30,13 @@ class DetailTableViewController: UITableViewController {
         bt.layer.shadowOpacity = 1
         bt.layer.shadowOffset = CGSize(width: 0, height: 3)
         bt.layer.shadowColor = UIColor.black.cgColor
-        let tap = UITapGestureRecognizer(target: self, action: #selector(callReviewView))
+        let tap = UITapGestureRecognizer(target: self, action: #selector(showRatingView))
         bt.addGestureRecognizer(tap)
 
         return bt
     }
 
-    //MARK: -Properties
+    //MARK: - Properties
     var cafe : Cafe?
     var image: UIImage?
     var isCheckButtonActivated: Bool = false {
@@ -130,7 +130,12 @@ class DetailTableViewController: UITableViewController {
         return cell
     }
 
-    @objc private func callReviewView(){
+    //MARK: - Subviews Methods
+
+    //MARK: - ShowRatingView
+
+
+    @objc private func showRatingView(){
         print("check button ativated")
 
         if let ratingView = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RatingViewController") as? RatingViewController {
@@ -166,6 +171,15 @@ class DetailTableViewController: UITableViewController {
    @objc private func showMapView() {
 
     print("show maps")
+
+
+        if let mapView = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "mapViewController") as? DetailMapViewController {
+            mapView.modalPresentationStyle = .fullScreen
+//            mapView.modalTransitionStyle = .coverVertical
+            mapView.cafe = cafe
+            present(mapView, animated: true, completion: nil)
+        }
+
     }
     /*
     // Override to support conditional editing of the table view.

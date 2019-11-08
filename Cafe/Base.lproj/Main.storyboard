@@ -108,7 +108,7 @@
         <!--MapViewController-->
         <scene sceneID="XjU-yT-OLa">
             <objects>
-                <viewController id="6Rb-UF-PoE" userLabel="MapViewController" sceneMemberID="viewController">
+                <viewController restorationIdentifier="mapViewController" storyboardIdentifier="mapViewController" title="mapViewController" id="6Rb-UF-PoE" userLabel="MapViewController" customClass="DetailMapViewController" customModule="Cafe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tlA-bB-D80">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,6 +126,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vKm-DT-VHu"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="5Pz-5o-sgB" id="6CK-f2-Bbg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVh-xf-E2D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -250,7 +253,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u45-Wy-MEF">
-                                        <rect key="frame" x="253" y="-11" width="48" height="48"/>
+                                        <rect key="frame" x="277" y="-11" width="24" height="24"/>
                                         <state key="normal" image="cross"/>
                                     </button>
                                 </subviews>
