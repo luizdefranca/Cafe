@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		251B68AE234ADA9400928AE1 /* RoundedAndShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B68AD234ADA9400928AE1 /* RoundedAndShadowView.swift */; };
 		256D65D92375DD1B00C7E54C /* DetailMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D65D82375DD1B00C7E54C /* DetailMapViewController.swift */; };
+		256D65DB2377695A00C7E54C /* NewCafeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D65DA2377695A00C7E54C /* NewCafeTableViewController.swift */; };
 		258808192329C12E00F0A0CC /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258808182329C12E00F0A0CC /* DetailTableViewController.swift */; };
 		2588081B2329C25F00F0A0CC /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588081A2329C25F00F0A0CC /* Segue.swift */; };
 		25A1DE15236E750E007287C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A1DE14236E750E007287C6 /* MapKit.framework */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		251B68AD234ADA9400928AE1 /* RoundedAndShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedAndShadowView.swift; sourceTree = "<group>"; };
 		256D65D82375DD1B00C7E54C /* DetailMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapViewController.swift; sourceTree = "<group>"; };
+		256D65DA2377695A00C7E54C /* NewCafeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCafeTableViewController.swift; sourceTree = "<group>"; };
 		258808182329C12E00F0A0CC /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		2588081A2329C25F00F0A0CC /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
 		25A1DE14236E750E007287C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -100,6 +102,7 @@
 				25C1BB692327DE8F005D1FCB /* Cafe.swift */,
 				258808182329C12E00F0A0CC /* DetailTableViewController.swift */,
 				256D65D82375DD1B00C7E54C /* DetailMapViewController.swift */,
+				256D65DA2377695A00C7E54C /* NewCafeTableViewController.swift */,
 				25C1BB562320154A005D1FCB /* Main.storyboard */,
 				25DCF496236A72B40088D6F4 /* RatingViewController.swift */,
 				25C1BB5C2320154E005D1FCB /* Assets.xcassets */,
@@ -200,6 +203,7 @@
 				25C1BB7023287DDA005D1FCB /* Extensions.swift in Sources */,
 				251B68AE234ADA9400928AE1 /* RoundedAndShadowView.swift in Sources */,
 				32DC750BD05C7479EAAB9318 /* CafeManager.swift in Sources */,
+				256D65DB2377695A00C7E54C /* NewCafeTableViewController.swift in Sources */,
 				256D65D92375DD1B00C7E54C /* DetailMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

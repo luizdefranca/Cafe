@@ -42,7 +42,7 @@ class CafeTableViewCell: UITableViewCell {
             }
 
 
-            if let imageString = self.cafe?.image {
+            if let imageString = self.cafe?.imageURL {
                 loadImage(urlString: imageString)
             }
 

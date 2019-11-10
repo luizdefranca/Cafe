@@ -54,6 +54,8 @@ class DetailTableViewController: UITableViewController {
 
         self.title = cafe?.name
         self.navigationController?.hidesBarsOnSwipe = true
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        self.navigationItem.title = cafe?.name
         configTable()
         self.view.addSubview(checkButton)
         addMap()
@@ -177,7 +179,9 @@ class DetailTableViewController: UITableViewController {
             mapView.modalPresentationStyle = .fullScreen
 //            mapView.modalTransitionStyle = .coverVertical
             mapView.cafe = cafe
-            present(mapView, animated: true, completion: nil)
+
+            self.navigationController?.pushViewController(mapView, animated: true)
+//            present(mapView, animated: true, completion: nil)
         }
 
     }

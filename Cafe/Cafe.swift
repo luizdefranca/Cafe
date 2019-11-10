@@ -58,7 +58,7 @@ import MapKit
 
 class Cafe : NSObject, MKAnnotation {
 
-
+    //MARK: Proprieties
 
     //Required MkAnnotation Attributes
 
@@ -66,6 +66,10 @@ class Cafe : NSObject, MKAnnotation {
         return CLLocationCoordinate2D(latitude: self.latitude, longitude: self.longitude)
     }
 
+    //Cached propriety
+     var imageCache = NSCache<AnyObject, AnyObject>()
+
+    //Proprieties from API
     var id: String = ""
     var name: String = ""
     var postalCode: String = ""
@@ -74,7 +78,7 @@ class Cafe : NSObject, MKAnnotation {
     var phone: String = ""
     var latitude: Double = 0.0
     var longitude: Double = 0.0
-    var image: String = ""
+    var imageURL: String = ""
     var webPage: String = ""
     var rating: Double = 0
     var price: String = ""
@@ -82,7 +86,10 @@ class Cafe : NSObject, MKAnnotation {
     var distance: Double = 0.0
     var isClosed: Bool = false
     var transactions: [String] = [String]()
-
+    var image : UIImage?
+    var subtitle: String? {
+        return address
+    }
 
     init(id : String,
             name: String,
@@ -92,7 +99,7 @@ class Cafe : NSObject, MKAnnotation {
          phone: String,
          latitude: Double,
          longitude: Double,
-         image: String,
+         imageURL: String,
          webPage: String,
          rating: Double,
          price: String,
@@ -108,11 +115,11 @@ class Cafe : NSObject, MKAnnotation {
         self.city = city
         self.latitude = latitude
         self.longitude = longitude
-        self.image = image
+        self.imageURL = imageURL
         self.webPage = webPage
         self.rating = rating
         self.price = price
-        self.title = title
+        self.title = name
         self.distance = distance
         self.isClosed = isClosed
         self.transactions = transactions
@@ -123,7 +130,7 @@ class Cafe : NSObject, MKAnnotation {
 
         if let id = json["id"] as? String { self.id = id}
         if let name = json["name"] as? String { self.name = name }
-        if let image = json["image_url"] as? String { self.image = image }
+        if let image = json["image_url"] as? String { self.imageURL = image }
         if let isClosed = json["is_closed"] as? Bool { self.isClosed = isClosed }
         if let webPage = json["url"] as? String { self.webPage = webPage }
         if let rating = json["rating"] as? Double { self.rating = rating }
@@ -144,6 +151,62 @@ class Cafe : NSObject, MKAnnotation {
             if let postalCode = location["zip_code"] as? String { self.postalCode = postalCode }
         }
 
+        super.init()
+        loadImage(urlString: imageURL)
+
+
     }
     
+}
+
+//MARK: Extensions
+
+
+extension Cafe {
+
+//Load image data from URL
+
+
+
+    func loadImage(urlString: String) {
+        if let imageCache = imageCache.object(forKey: urlString as AnyObject) as? UIImage {
+            self.image = imageCache
+            return
+        }
+
+        guard let url = URL(string: urlString) else { return }
+        let request = URLRequest(url: url)
+
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            if let error = error {
+                print("Error: \(error.localizedDescription) at line \(#line) in the function \(#function) on the file \(#file) ")
+            }
+
+            guard let data = data else { return }
+            if let image = UIImage(data: data) {
+                self.imageCache.setObject(image, forKey: urlString as AnyObject)
+                print("\(image)")
+                DispatchQueue.main.async {
+                    self.image = image
+                }
+            }
+
+        }.resume()
+
+    }
+}
+
+
+extension UIImageView {
+    func load(url: URL) {
+        DispatchQueue.global().async { [weak self] in
+            if let data = try? Data(contentsOf: url) {
+                if let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        self?.image = image
+                    }
+                }
+            }
+        }
+    }
 }

@@ -18,25 +18,36 @@ class ViewController: UIViewController {
     var restaurantNames = ["Cafe Deadend", "Mallo Coffee & Bar", "De Mello Palheta Coffee Roasters", "Strange Love Coffee", "Quantum Coffee", "Hopper coffee", "Milkys Coffee", "Moonbean Coffee Company", "Balzacs Liberty Village", "Baddies", "The Absinthe Pub and Coffee Shop"]
 
     var cafes: [Cafe] = []
+    var searchResults: [Cafe] = []
+    var searchController: UISearchController  {
+        let searchController  = UISearchController(searchResultsController: nil)
+        searchController.obscuresBackgroundDuringPresentation = false
+        return searchController
+    }
+
+
     //MARK: Constants
      let cellIdentifier = "cell"
 
     //MARK: - LifeCycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        listTableView.backgroundColor = UIColor(named: "Destak_Background")
         listTableView.dataSource = self
         listTableView.delegate = self
         fetchData()
         configNavigationController()
+        addSearchBar()
 
     }
     override func viewWillAppear(_ animated: Bool) {
-        navigationController?.hidesBarsOnSwipe = true
+        navigationController?.hidesBarsOnSwipe = false
         navigationController?.toolbar.isHidden = true
     }
 
     private func configNavigationController () {
         navigationItem.title = "Easy Food"
+
         navigationController?.navigationBar.tintColor = UIColor(named: "Clear_Light_Font")
         //        navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.titleView?.tintColor = UIColor(named: "Clear_Light_Font")
@@ -45,6 +56,9 @@ class ViewController: UIViewController {
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 
         navigationController?.toolbar.isHidden = true
+
+        //config searchController
+        navigationItem.hidesSearchBarWhenScrolling = false
 
     }
 
@@ -186,4 +200,41 @@ extension ViewController: UITableViewDelegate {
 
         return configActions
     }
+
+}
+
+//MARK: - View Methods
+
+//MARK: Search Bar and Search Controller
+
+extension ViewController {
+    private func addSearchBar(){
+
+        let searchBar = searchController.searchBar
+        searchBar.enablesReturnKeyAutomatically = true
+        searchBar.isTranslucent = true
+
+       // searchBar.setImage(UIImage(named: "search"), for: .search, state: .normal)
+        searchBar.barTintColor = UIColor(named: "Dark_Font")
+        searchBar.backgroundColor = UIColor(named: "Clear_Light_Font")
+        searchBar.tintColor = UIColor(named: "Clear_Light_Font")
+        searchBar.barStyle = .blackOpaque
+        if #available(iOS 11, *){
+            if let textField = searchBar.value(forKey: "searchField") as? UITextField {
+                textField.textColor = UIColor(named: "Clear_Light_Font")
+                textField.font = UIFont(name: "ArialRoundedMTBold", size: 17)
+                let iconView = textField.leftView as! UIImageView
+                iconView.image = iconView.image?.withRenderingMode(.alwaysTemplate)
+                iconView.tintColor = UIColor(named: "Clear_Light_Font")
+//                if let backgroundView = textField.subviews.first {
+//
+//                    backgroundView.backgroundColor = UIColor(named: "Destak_Background")
+//                }
+            }
+        }
+        listTableView.tableHeaderView = searchBar
+//        listTableView.tableHeaderView?.
+//        listTableView.backgroundColor = UIColor(named: "Dark_Font")
+    }
+
 }
