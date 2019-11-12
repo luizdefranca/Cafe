@@ -132,7 +132,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVh-xf-E2D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1617.3913043478262" y="800.89285714285711"/>
+            <point key="canvasLocation" x="1609" y="864"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="wDH-Fy-Abm">
+            <objects>
+                <pageViewController storyboardIdentifier="WalkthroughController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ZoP-jy-MG2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jv0-cd-rR2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2578" y="881"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tl3-W9-s74">
+            <objects>
+                <viewController id="mQF-lb-BSp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JYl-2l-Orq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="Dark_Font"/>
+                        <viewLayoutGuide key="safeArea" id="yTR-bW-ByN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7lt-7n-QG4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3362" y="883"/>
         </scene>
         <!--New Cafe Table View Controller-->
         <scene sceneID="E3m-OY-Ggw">
@@ -180,7 +203,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2pz-uM-FOK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2687" y="805"/>
+            <point key="canvasLocation" x="3729" y="110"/>
         </scene>
         <!--Detail Table View Controller-->
         <scene sceneID="J9f-tD-bjb">
@@ -301,7 +324,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u45-Wy-MEF">
-                                        <rect key="frame" x="253" y="-11" width="48" height="48"/>
+                                        <rect key="frame" x="277" y="-11" width="24" height="24"/>
                                         <state key="normal" image="cross"/>
                                     </button>
                                 </subviews>
@@ -364,7 +387,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uIn-Uy-Tc5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-320.28985507246381" y="97.767857142857139"/>
+            <point key="canvasLocation" x="-651" y="423"/>
         </scene>
     </scenes>
     <resources>
