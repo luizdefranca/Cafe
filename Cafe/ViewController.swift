@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        listTableView.backgroundColor = UIColor(named: "Destak_Background")
+        listTableView.backgroundColor = UIColor(named: "Dark_Main_Background")
         listTableView.dataSource = self
         listTableView.delegate = self
         fetchData()
@@ -38,10 +38,21 @@ class ViewController: UIViewController {
 
     }
     override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         navigationController?.hidesBarsOnSwipe = false
         navigationController?.toolbar.isHidden = true
     }
 
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+
+        if let pageViewController = storyboard?.instantiateViewController(withIdentifier: "WalkthroughPageViewController") as? WalkthroughPageViewController {
+            pageViewController.modalPresentationStyle = .fullScreen
+            present(pageViewController, animated: true, completion: nil)
+        }
+    }
     private func configNavigationController () {
         navigationItem.title = "Easy Food"
 

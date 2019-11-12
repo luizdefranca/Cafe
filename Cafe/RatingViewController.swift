@@ -10,9 +10,15 @@ import UIKit
 
 class RatingViewController: UIViewController {
 
+    var cafe: Cafe?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        if let cafe = cafe {
+            backgroundImage.image = cafe.image
+            ratingImage.image = cafe.image
+        }
         setupBlurEffect()
 
         let scaleTransform = CGAffineTransform.init(scaleX: 0, y: 0)

@@ -141,6 +141,7 @@ class DetailTableViewController: UITableViewController {
         print("check button ativated")
 
         if let ratingView = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RatingViewController") as? RatingViewController {
+            ratingView.cafe = cafe
             ratingView.modalPresentationStyle = UIModalPresentationStyle.fullScreen
             present(ratingView, animated: true, completion: nil)
         }
