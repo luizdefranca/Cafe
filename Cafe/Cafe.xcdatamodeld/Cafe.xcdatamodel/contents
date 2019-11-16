@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cafe" representedClassName="CafeMO" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" defaultValueString="&quot;&quot;"/>
+        <attribute name="city" optional="YES" attributeType="String" defaultValueString="&quot;&quot;"/>
+        <attribute name="distance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="String" defaultValueString="&quot;&quot;"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" defaultValueString="&quot;&quot;"/>
+        <attribute name="isClosed" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString="&quot;&quot;"/>
+        <attribute name="phone" attributeType="String" defaultValueString="&quot;&quot;"/>
+        <attribute name="postalCode" attributeType="String" defaultValueString="&quot;&quot;"/>
+        <attribute name="price" attributeType="String" defaultValueString="&quot;&quot;"/>
+        <attribute name="rating" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String" defaultValueString="&quot;&quot;"/>
+        <attribute name="transactions" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="webPage" attributeType="String" defaultValueString="&quot;&quot;"/>
+    </entity>
+    <elements>
+        <element name="Cafe" positionX="-63" positionY="-18" width="128" height="298"/>
+    </elements>
 </model>

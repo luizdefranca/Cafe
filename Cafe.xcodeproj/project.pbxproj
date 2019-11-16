@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		251B68AE234ADA9400928AE1 /* RoundedAndShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B68AD234ADA9400928AE1 /* RoundedAndShadowView.swift */; };
+		2541216B2380898E00850804 /* CafeMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254121692380898E00850804 /* CafeMO+CoreDataClass.swift */; };
+		2541216C2380898E00850804 /* CafeMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2541216A2380898E00850804 /* CafeMO+CoreDataProperties.swift */; };
 		25590037237A6A7500A44238 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25590036237A6A7500A44238 /* ContentViewController.swift */; };
 		25590039237A734200A44238 /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25590038237A734200A44238 /* WalkthroughPageViewController.swift */; };
 		2559003D237DF30000A44238 /* RatingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2559003C237DF30000A44238 /* RatingStackView.swift */; };
@@ -30,10 +32,6 @@
 		25C1BB7023287DDA005D1FCB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1BB6F23287DDA005D1FCB /* Extensions.swift */; };
 		25D381CF237E562000C71EF4 /* Rating.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D381CD237E562000C71EF4 /* Rating.storyboard */; };
 		25D381D1237E585300C71EF4 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D381D0237E585300C71EF4 /* RatingView.swift */; };
-		25D381D6237F094900C71EF4 /* firstScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D2237F094800C71EF4 /* firstScreen.png */; };
-		25D381D7237F094900C71EF4 /* secondScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D3237F094900C71EF4 /* secondScreen.png */; };
-		25D381D8237F094900C71EF4 /* thirdScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D4237F094900C71EF4 /* thirdScreen.png */; };
-		25D381D9237F094900C71EF4 /* Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D5237F094900C71EF4 /* Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png */; };
 		25D381DD237F0CE400C71EF4 /* WalkthroughScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D381DB237F0CE400C71EF4 /* WalkthroughScreen.storyboard */; };
 		25DCF497236A72B40088D6F4 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DCF496236A72B40088D6F4 /* RatingViewController.swift */; };
 		25F40BDE235815BB0022808C /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F40BDD235815BB0022808C /* DetailTableViewCell.swift */; };
@@ -42,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		251B68AD234ADA9400928AE1 /* RoundedAndShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedAndShadowView.swift; sourceTree = "<group>"; };
+		254121692380898E00850804 /* CafeMO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CafeMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2541216A2380898E00850804 /* CafeMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CafeMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		25590036237A6A7500A44238 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		25590038237A734200A44238 /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
 		2559003C237DF30000A44238 /* RatingStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStackView.swift; sourceTree = "<group>"; };
@@ -66,10 +66,6 @@
 		25C1BB6F23287DDA005D1FCB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		25D381CE237E562000C71EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Cafe/Base.lproj/Rating.storyboard; sourceTree = "<group>"; };
 		25D381D0237E585300C71EF4 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
-		25D381D2237F094800C71EF4 /* firstScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstScreen.png; sourceTree = "<group>"; };
-		25D381D3237F094900C71EF4 /* secondScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondScreen.png; sourceTree = "<group>"; };
-		25D381D4237F094900C71EF4 /* thirdScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thirdScreen.png; sourceTree = "<group>"; };
-		25D381D5237F094900C71EF4 /* Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png"; sourceTree = "<group>"; };
 		25D381DC237F0CE400C71EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Cafe/Base.lproj/WalkthroughScreen.storyboard; sourceTree = "<group>"; };
 		25DCF496236A72B40088D6F4 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
 		25F40BDD235815BB0022808C /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
@@ -161,6 +157,8 @@
 		25C1BB4623201549005D1FCB = {
 			isa = PBXGroup;
 			children = (
+				254121692380898E00850804 /* CafeMO+CoreDataClass.swift */,
+				2541216A2380898E00850804 /* CafeMO+CoreDataProperties.swift */,
 				25C1BB512320154A005D1FCB /* Cafe */,
 				25C1BB502320154A005D1FCB /* Products */,
 				25A1DE13236E750E007287C6 /* Frameworks */,
@@ -194,10 +192,6 @@
 				25C1BB612320154E005D1FCB /* Info.plist */,
 				25C1BB6B23287D3D005D1FCB /* Cafe.json */,
 				2588081A2329C25F00F0A0CC /* Segue.swift */,
-				25D381D2237F094800C71EF4 /* firstScreen.png */,
-				25D381D3237F094900C71EF4 /* secondScreen.png */,
-				25D381D4237F094900C71EF4 /* thirdScreen.png */,
-				25D381D5237F094900C71EF4 /* Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png */,
 				25C1BB6D23287DCE005D1FCB /* DataManager.swift */,
 				25C1BB592320154A005D1FCB /* Cafe.xcdatamodeld */,
 				25C1BB6F23287DDA005D1FCB /* Extensions.swift */,
@@ -274,12 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				25A99BAA237F9E88000AF4CB /* ContentPageView.storyboard in Resources */,
-				25D381D7237F094900C71EF4 /* secondScreen.png in Resources */,
-				25D381D8237F094900C71EF4 /* thirdScreen.png in Resources */,
 				25C1BB6C23287D3D005D1FCB /* Cafe.json in Resources */,
-				25D381D9237F094900C71EF4 /* Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png in Resources */,
 				25C1BB602320154E005D1FCB /* LaunchScreen.storyboard in Resources */,
-				25D381D6237F094900C71EF4 /* firstScreen.png in Resources */,
 				25C1BB5D2320154E005D1FCB /* Assets.xcassets in Resources */,
 				25C1BB582320154A005D1FCB /* Main.storyboard in Resources */,
 				25D381CF237E562000C71EF4 /* Rating.storyboard in Resources */,
@@ -305,11 +295,13 @@
 				2559003D237DF30000A44238 /* RatingStackView.swift in Sources */,
 				25C1BB6A2327DE8F005D1FCB /* Cafe.swift in Sources */,
 				25F40BDE235815BB0022808C /* DetailTableViewCell.swift in Sources */,
+				2541216C2380898E00850804 /* CafeMO+CoreDataProperties.swift in Sources */,
 				25C1BB6E23287DCE005D1FCB /* DataManager.swift in Sources */,
 				25C1BB532320154A005D1FCB /* AppDelegate.swift in Sources */,
 				25C1BB7023287DDA005D1FCB /* Extensions.swift in Sources */,
 				251B68AE234ADA9400928AE1 /* RoundedAndShadowView.swift in Sources */,
 				32DC750BD05C7479EAAB9318 /* CafeManager.swift in Sources */,
+				2541216B2380898E00850804 /* CafeMO+CoreDataClass.swift in Sources */,
 				256D65DB2377695A00C7E54C /* NewCafeTableViewController.swift in Sources */,
 				25D381D1237E585300C71EF4 /* RatingView.swift in Sources */,
 				256D65D92375DD1B00C7E54C /* DetailMapViewController.swift in Sources */,
