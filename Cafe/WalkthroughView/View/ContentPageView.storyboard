@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,7 +14,7 @@
         <!--Content View Controller-->
         <scene sceneID="Tl3-W9-s74">
             <objects>
-                <viewController storyboardIdentifier="ContentViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mQF-lb-BSp" customClass="ContentViewController" customModule="Cafe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mQF-lb-BSp" customClass="ContentViewController" customModule="Cafe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JYl-2l-Orq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,25 +25,13 @@
                                 <color key="textColor" name="Dark_Font"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-11-15 at 11.23.28 AM.png" translatesAutoresizingMaskIntoConstraints="NO" id="zUx-Hw-7fV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="firstScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="zUx-Hw-7fV">
                                 <rect key="frame" x="107" y="159" width="200" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="zUx-Hw-7fV" secondAttribute="height" multiplier="2:3" id="ejv-iU-VKF"/>
                                     <constraint firstAttribute="width" constant="200" id="pMN-FV-gW3"/>
                                     <constraint firstAttribute="height" constant="300" id="wlc-fj-RsY"/>
                                 </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                        <integer key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
-                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="EYc-ks-igY">
                                 <rect key="frame" x="187.5" y="841" width="39" height="37"/>
@@ -58,6 +48,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" name="Dark_Font"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="mQF-lb-BSp" eventType="touchUpInside" id="reK-eI-Wed"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pin your favorite cafe and create your own food guide" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KrB-tQ-NRs">
                                 <rect key="frame" x="20" y="491" width="374" height="54"/>
@@ -86,7 +79,9 @@
                     <connections>
                         <outlet property="contentImageView" destination="zUx-Hw-7fV" id="9JW-Dm-VhN"/>
                         <outlet property="contentLabel" destination="KrB-tQ-NRs" id="bSI-Pu-z4H"/>
+                        <outlet property="forwardButton" destination="dna-98-n6B" id="Rfj-8S-Mmb"/>
                         <outlet property="headingLabel" destination="XhG-G0-Mh2" id="lXz-OV-1mv"/>
+                        <outlet property="pageControl" destination="EYc-ks-igY" id="IGr-6c-AkG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7lt-7n-QG4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -95,7 +90,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2019-11-15 at 11.23.28 AM.png" width="408" height="596"/>
+        <image name="firstScreen.png" width="816" height="1192"/>
         <namedColor name="Dark_Font">
             <color red="0.35294117647058826" green="0.082352941176470587" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>

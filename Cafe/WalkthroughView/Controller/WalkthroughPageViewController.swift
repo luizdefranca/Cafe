@@ -10,10 +10,51 @@ import UIKit
 
 class WalkthroughPageViewController: UIPageViewController, UIPageViewControllerDataSource {
 
+    //MARK: - Properties
     var pageHeadings = ["First Page", "Second Page", "Third Page"]
-    var pageImages = ["First Page", "Second Page", "Third Page"]
-    var pageContens = ["First Page", "Second Page", "Third Page"]
+    var pageImages = ["firstScreen", "secondScreen", "thirdScreen"]
+    var pageContens = ["Firs Page", "Second Page", "Third Page"]
 
+
+    //MARK: - Lifecycle functions
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        dataSource = self
+
+        if let startingViewController = contentViewController(at: 0){
+            setViewControllers([startingViewController], direction: .forward, animated: true, completion: nil)
+            print("content pageview loaded")
+        }
+
+    }
+
+    //MARK: - Functions
+
+    func contentViewController(at index: Int) -> ContentViewController? {
+        if index < 0 || index >= pageHeadings.count {
+            return nil
+        }
+
+        let storyboard = UIStoryboard(name: "ContentPageView", bundle: nil)
+        if let pageContentViewController = storyboard.instantiateViewController(withIdentifier: "ContentViewController") as? ContentViewController {
+            pageContentViewController.imageFile = pageImages[index]
+            pageContentViewController.content = pageContens[index]
+            pageContentViewController.heading = pageContens[index]
+            pageContentViewController.index = index
+            return pageContentViewController
+        }
+        return nil
+    }
+
+
+    func forward(for index: Int){
+        if let nextViewController = contentViewController(at: index + 1) {
+            
+            setViewControllers([nextViewController], direction: .forward, animated: true, completion: nil)
+        }
+    }
+
+    //MARK: - UIPageViewControllerDataSource   Methods
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         var index = (viewController as! ContentViewController).index
         index -= 1
@@ -29,32 +70,20 @@ class WalkthroughPageViewController: UIPageViewController, UIPageViewControllerD
     }
 
 
-    func contentViewController(at index: Int) -> ContentViewController? {
-        if index < 0 || index >= pageHeadings.count {
-            return nil
-        }
+/*
+    func presentationCount(for pageViewController: UIPageViewController) -> Int {
+        return pageHeadings.count
+    }
 
-        let storyboard = UIStoryboard(name: "ContentPageView", bundle: nil)
+    func presentationIndex(for pageViewController: UIPageViewController) -> Int {
+        let storyboard = UIStoryboard(name: "ContentPageView", bundle: nil  )
         if let pageContentViewController = storyboard.instantiateViewController(withIdentifier: "ContentViewController") as? ContentViewController {
-            pageContentViewController.imageFile = pageHeadings[index]
-            pageContentViewController.content = pageContens[index]
-            pageContentViewController.heading = pageContens[index]
-            return pageContentViewController
+            return pageContentViewController.index
         }
-        return nil
+        return 0
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        dataSource = self
-
-        if let startingViewController = contentViewController(at: 0){
-            setViewControllers([startingViewController], direction: .forward, animated: true, completion: nil)
-            print("content pageview loaded")
-        }
-
-    }
-    
+*/
 
 
 }

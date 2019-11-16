@@ -16,7 +16,6 @@
 		258808192329C12E00F0A0CC /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258808182329C12E00F0A0CC /* DetailTableViewController.swift */; };
 		2588081B2329C25F00F0A0CC /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588081A2329C25F00F0A0CC /* Segue.swift */; };
 		25A1DE15236E750E007287C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A1DE14236E750E007287C6 /* MapKit.framework */; };
-		25A99BA8237F9E37000AF4CB /* ContentPageView.2storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A99BA7237F9E37000AF4CB /* ContentPageView.2storyboard.storyboard */; };
 		25A99BAA237F9E88000AF4CB /* ContentPageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A99BA9237F9E88000AF4CB /* ContentPageView.storyboard */; };
 		25C1BB532320154A005D1FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1BB522320154A005D1FCB /* AppDelegate.swift */; };
 		25C1BB552320154A005D1FCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1BB542320154A005D1FCB /* ViewController.swift */; };
@@ -31,9 +30,9 @@
 		25C1BB7023287DDA005D1FCB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1BB6F23287DDA005D1FCB /* Extensions.swift */; };
 		25D381CF237E562000C71EF4 /* Rating.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D381CD237E562000C71EF4 /* Rating.storyboard */; };
 		25D381D1237E585300C71EF4 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D381D0237E585300C71EF4 /* RatingView.swift */; };
-		25D381D6237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.23.28 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D2237F094800C71EF4 /* Screen Shot 2019-11-15 at 11.23.28 AM.png */; };
-		25D381D7237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.23.57 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D3237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.23.57 AM.png */; };
-		25D381D8237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.24.37 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D4237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.24.37 AM.png */; };
+		25D381D6237F094900C71EF4 /* firstScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D2237F094800C71EF4 /* firstScreen.png */; };
+		25D381D7237F094900C71EF4 /* secondScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D3237F094900C71EF4 /* secondScreen.png */; };
+		25D381D8237F094900C71EF4 /* thirdScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D4237F094900C71EF4 /* thirdScreen.png */; };
 		25D381D9237F094900C71EF4 /* Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D381D5237F094900C71EF4 /* Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png */; };
 		25D381DD237F0CE400C71EF4 /* WalkthroughScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D381DB237F0CE400C71EF4 /* WalkthroughScreen.storyboard */; };
 		25DCF497236A72B40088D6F4 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DCF496236A72B40088D6F4 /* RatingViewController.swift */; };
@@ -51,7 +50,6 @@
 		258808182329C12E00F0A0CC /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		2588081A2329C25F00F0A0CC /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
 		25A1DE14236E750E007287C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		25A99BA7237F9E37000AF4CB /* ContentPageView.2storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ContentPageView.2storyboard.storyboard; sourceTree = "<group>"; };
 		25A99BA9237F9E88000AF4CB /* ContentPageView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ContentPageView.storyboard; sourceTree = "<group>"; };
 		25C1BB4F2320154A005D1FCB /* Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C1BB522320154A005D1FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,9 +66,9 @@
 		25C1BB6F23287DDA005D1FCB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		25D381CE237E562000C71EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Cafe/Base.lproj/Rating.storyboard; sourceTree = "<group>"; };
 		25D381D0237E585300C71EF4 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
-		25D381D2237F094800C71EF4 /* Screen Shot 2019-11-15 at 11.23.28 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-11-15 at 11.23.28 AM.png"; sourceTree = "<group>"; };
-		25D381D3237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.23.57 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-11-15 at 11.23.57 AM.png"; sourceTree = "<group>"; };
-		25D381D4237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.24.37 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-11-15 at 11.24.37 AM.png"; sourceTree = "<group>"; };
+		25D381D2237F094800C71EF4 /* firstScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstScreen.png; sourceTree = "<group>"; };
+		25D381D3237F094900C71EF4 /* secondScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondScreen.png; sourceTree = "<group>"; };
+		25D381D4237F094900C71EF4 /* thirdScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thirdScreen.png; sourceTree = "<group>"; };
 		25D381D5237F094900C71EF4 /* Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png"; sourceTree = "<group>"; };
 		25D381DC237F0CE400C71EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Cafe/Base.lproj/WalkthroughScreen.storyboard; sourceTree = "<group>"; };
 		25DCF496236A72B40088D6F4 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				25A99BA9237F9E88000AF4CB /* ContentPageView.storyboard */,
-				25A99BA7237F9E37000AF4CB /* ContentPageView.2storyboard.storyboard */,
 				25D381DB237F0CE400C71EF4 /* WalkthroughScreen.storyboard */,
 			);
 			path = View;
@@ -197,9 +194,9 @@
 				25C1BB612320154E005D1FCB /* Info.plist */,
 				25C1BB6B23287D3D005D1FCB /* Cafe.json */,
 				2588081A2329C25F00F0A0CC /* Segue.swift */,
-				25D381D2237F094800C71EF4 /* Screen Shot 2019-11-15 at 11.23.28 AM.png */,
-				25D381D3237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.23.57 AM.png */,
-				25D381D4237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.24.37 AM.png */,
+				25D381D2237F094800C71EF4 /* firstScreen.png */,
+				25D381D3237F094900C71EF4 /* secondScreen.png */,
+				25D381D4237F094900C71EF4 /* thirdScreen.png */,
 				25D381D5237F094900C71EF4 /* Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png */,
 				25C1BB6D23287DCE005D1FCB /* DataManager.swift */,
 				25C1BB592320154A005D1FCB /* Cafe.xcdatamodeld */,
@@ -277,17 +274,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				25A99BAA237F9E88000AF4CB /* ContentPageView.storyboard in Resources */,
-				25D381D7237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.23.57 AM.png in Resources */,
-				25D381D8237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.24.37 AM.png in Resources */,
+				25D381D7237F094900C71EF4 /* secondScreen.png in Resources */,
+				25D381D8237F094900C71EF4 /* thirdScreen.png in Resources */,
 				25C1BB6C23287D3D005D1FCB /* Cafe.json in Resources */,
 				25D381D9237F094900C71EF4 /* Simulator Screen Shot - iPhone 11 - 2019-11-15 at 11.16.51.png in Resources */,
 				25C1BB602320154E005D1FCB /* LaunchScreen.storyboard in Resources */,
-				25D381D6237F094900C71EF4 /* Screen Shot 2019-11-15 at 11.23.28 AM.png in Resources */,
+				25D381D6237F094900C71EF4 /* firstScreen.png in Resources */,
 				25C1BB5D2320154E005D1FCB /* Assets.xcassets in Resources */,
 				25C1BB582320154A005D1FCB /* Main.storyboard in Resources */,
 				25D381CF237E562000C71EF4 /* Rating.storyboard in Resources */,
 				25D381DD237F0CE400C71EF4 /* WalkthroughScreen.storyboard in Resources */,
-				25A99BA8237F9E37000AF4CB /* ContentPageView.2storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -464,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -481,13 +477,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 489ZVWUGPK;
 				INFOPLIST_FILE = Cafe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = code.luizramos.Cafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -499,13 +496,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 489ZVWUGPK;
 				INFOPLIST_FILE = Cafe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = code.luizramos.Cafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

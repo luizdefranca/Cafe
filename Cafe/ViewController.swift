@@ -44,15 +44,21 @@ class ViewController: UIViewController {
     }
 
 
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-
-    let storyboard = UIStoryboard(name: "WalkthroughScreen", bundle: nil)
+    fileprivate func showWalkthrough() {
+        let storyboard = UIStoryboard(name: "WalkthroughScreen", bundle: nil)
         if let pageViewController = storyboard.instantiateViewController(withIdentifier: "WalkthroughPageViewController") as? WalkthroughPageViewController {
             pageViewController.modalPresentationStyle = .fullScreen
             present(pageViewController, animated: true, completion: nil)
         }
     }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if !UserDefaults.standard.bool(forKey: "hasViewedWalkthrough") {
+            showWalkthrough()
+        }
+    }
+
     private func configNavigationController () {
         navigationItem.title = "Easy Food"
 
