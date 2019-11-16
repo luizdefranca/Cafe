@@ -47,8 +47,8 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-
-        if let pageViewController = storyboard?.instantiateViewController(withIdentifier: "WalkthroughPageViewController") as? WalkthroughPageViewController {
+    let storyboard = UIStoryboard(name: "WalkthroughScreen", bundle: nil)
+        if let pageViewController = storyboard.instantiateViewController(withIdentifier: "WalkthroughPageViewController") as? WalkthroughPageViewController {
             pageViewController.modalPresentationStyle = .fullScreen
             present(pageViewController, animated: true, completion: nil)
         }

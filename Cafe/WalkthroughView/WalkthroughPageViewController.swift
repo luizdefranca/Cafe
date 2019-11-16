@@ -34,7 +34,8 @@ class WalkthroughPageViewController: UIPageViewController, UIPageViewControllerD
             return nil
         }
 
-        if let pageContentViewController = storyboard?.instantiateViewController(withIdentifier: "ContentViewController") as? ContentViewController {
+        let storyboard = UIStoryboard(name: "ContentPageView", bundle: nil)
+        if let pageContentViewController = storyboard.instantiateViewController(withIdentifier: "ContentViewController") as? ContentViewController {
             pageContentViewController.imageFile = pageHeadings[index]
             pageContentViewController.content = pageContens[index]
             pageContentViewController.heading = pageContens[index]

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rating View Controller-->
+        <scene sceneID="phu-Mr-QGd">
+            <objects>
+                <viewController storyboardIdentifier="RatingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XVd-aS-9GZ" customClass="RatingViewController" customModule="Cafe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qoS-fC-IEA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Milkys Coffee" translatesAutoresizingMaskIntoConstraints="NO" id="hXl-1S-bBX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vvo-bI-e9x">
+                                <rect key="frame" x="62" y="284.5" width="290" height="327"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haighschocolate" translatesAutoresizingMaskIntoConstraints="NO" id="XNJ-AQ-gvq">
+                                        <rect key="frame" x="0.0" y="0.0" width="290" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="RFc-g6-Uf6"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7xq-Ov-YcW">
+                                        <rect key="frame" x="0.0" y="200" width="290" height="127"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeE-mX-Y1O">
+                                                <rect key="frame" x="105" y="86" width="80" height="29"/>
+                                                <color key="backgroundColor" name="Dark_Main_Background"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="clA-RP-2P8"/>
+                                                </constraints>
+                                                <color key="tintColor" name="Clear_Light_Font"/>
+                                                <state key="normal" title="OK"/>
+                                                <connections>
+                                                    <action selector="SaveRating:" destination="XVd-aS-9GZ" eventType="touchUpInside" id="9u9-8u-VYl"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X1I-zp-WnI" customClass="RatingView" customModule="Cafe" customModuleProvider="target">
+                                                <rect key="frame" x="25" y="18" width="240" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="ebY-3t-ByL"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="filled3dStar"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="unselectedImage" value="empty3dStar"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentRating">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="interButtonSpace">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="highlightedImage" value="highlightedStar"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="X1I-zp-WnI" firstAttribute="top" secondItem="7xq-Ov-YcW" secondAttribute="top" constant="18" id="0ze-mn-Nna"/>
+                                            <constraint firstItem="qeE-mX-Y1O" firstAttribute="top" secondItem="X1I-zp-WnI" secondAttribute="bottom" constant="18" id="MRF-ej-tnH"/>
+                                            <constraint firstAttribute="bottom" secondItem="qeE-mX-Y1O" secondAttribute="bottom" constant="12" id="OsU-v7-icg"/>
+                                            <constraint firstItem="X1I-zp-WnI" firstAttribute="leading" secondItem="7xq-Ov-YcW" secondAttribute="leading" constant="25" id="Urf-Be-XO3"/>
+                                            <constraint firstItem="qeE-mX-Y1O" firstAttribute="centerX" secondItem="7xq-Ov-YcW" secondAttribute="centerX" id="WCX-J6-s2t"/>
+                                            <constraint firstAttribute="trailing" secondItem="X1I-zp-WnI" secondAttribute="trailing" constant="25" id="gTK-1u-1sP"/>
+                                            <constraint firstItem="X1I-zp-WnI" firstAttribute="centerX" secondItem="7xq-Ov-YcW" secondAttribute="centerX" id="stR-uS-OMS"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u45-Wy-MEF" userLabel="CloseButton">
+                                        <rect key="frame" x="253" y="-11" width="48" height="48"/>
+                                        <state key="normal" image="cross"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="7xq-Ov-YcW" secondAttribute="trailing" id="6ol-jV-ivh"/>
+                                    <constraint firstItem="u45-Wy-MEF" firstAttribute="trailing" secondItem="XNJ-AQ-gvq" secondAttribute="trailing" constant="11" id="G31-z4-jbK"/>
+                                    <constraint firstItem="XNJ-AQ-gvq" firstAttribute="leading" secondItem="Vvo-bI-e9x" secondAttribute="leading" id="KC8-Qa-UH9"/>
+                                    <constraint firstAttribute="width" constant="290" id="MCq-HO-WnO"/>
+                                    <constraint firstItem="u45-Wy-MEF" firstAttribute="top" secondItem="XNJ-AQ-gvq" secondAttribute="top" constant="-11" id="PdB-3w-6M3"/>
+                                    <constraint firstItem="7xq-Ov-YcW" firstAttribute="top" secondItem="XNJ-AQ-gvq" secondAttribute="bottom" id="T8U-oN-tPC"/>
+                                    <constraint firstAttribute="trailing" secondItem="XNJ-AQ-gvq" secondAttribute="trailing" id="U5P-BP-RIe"/>
+                                    <constraint firstItem="7xq-Ov-YcW" firstAttribute="leading" secondItem="Vvo-bI-e9x" secondAttribute="leading" id="gmH-OX-hu3"/>
+                                    <constraint firstAttribute="bottom" secondItem="7xq-Ov-YcW" secondAttribute="bottom" id="iva-9W-Jap"/>
+                                    <constraint firstItem="XNJ-AQ-gvq" firstAttribute="top" secondItem="Vvo-bI-e9x" secondAttribute="top" id="nzR-MZ-xUy"/>
+                                    <constraint firstAttribute="height" constant="327" id="rmB-Sb-JtQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hXl-1S-bBX" firstAttribute="leading" secondItem="qoS-fC-IEA" secondAttribute="leading" id="4NF-ub-wNd"/>
+                            <constraint firstAttribute="bottom" secondItem="hXl-1S-bBX" secondAttribute="bottom" id="NrL-4j-8e3"/>
+                            <constraint firstItem="Vvo-bI-e9x" firstAttribute="centerX" secondItem="qoS-fC-IEA" secondAttribute="centerX" id="QeQ-Vh-Dhb"/>
+                            <constraint firstItem="Vvo-bI-e9x" firstAttribute="centerY" secondItem="qoS-fC-IEA" secondAttribute="centerY" id="aYV-YP-Lq3"/>
+                            <constraint firstItem="hXl-1S-bBX" firstAttribute="top" secondItem="qoS-fC-IEA" secondAttribute="top" id="fpD-Tk-Udg"/>
+                            <constraint firstItem="hXl-1S-bBX" firstAttribute="trailing" secondItem="qoS-fC-IEA" secondAttribute="trailing" id="kTJ-ux-M6n"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xra-S0-ExN"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6H8-Cq-Cgo"/>
+                    <connections>
+                        <outlet property="backgroundImage" destination="hXl-1S-bBX" id="hGy-UE-JiQ"/>
+                        <outlet property="containerView" destination="Vvo-bI-e9x" id="zHP-pB-cPT"/>
+                        <outlet property="ratingImage" destination="XNJ-AQ-gvq" id="qJU-Gb-9eL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eas-HL-1qn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2575.36231884058" y="110.49107142857143"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Milkys Coffee" width="480" height="480"/>
+        <image name="cross" width="24" height="24"/>
+        <image name="empty3dStar" width="16" height="16"/>
+        <image name="filled3dStar" width="16" height="16"/>
+        <image name="haighschocolate" width="480" height="480"/>
+        <image name="highlightedStar" width="75" height="75"/>
+        <namedColor name="Clear_Light_Font">
+            <color red="0.89411764705882357" green="0.83921568627450982" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Dark_Main_Background">
+            <color red="0.57647058823529407" green="0.13725490196078433" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
